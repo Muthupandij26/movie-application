@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h3 {
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px;
+}
+
+.container input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.container #search {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+#movies {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card, img {
+  padding: 20px;
+}
+
+h5 {
+  text-align: center;
+}
+
+button {
+  width: 8rem;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-left: 100px;
+}
+
+#anch {
+  background-color: skyblue;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+p {
+  float: right;
+}
+/*# sourceMappingURL=external.css.map */
