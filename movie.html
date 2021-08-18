@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Testing</title>
+    <link rel="stylesheet" href="external.css">
+</head>
+<body>
+
+    <h3>Movie Info</h3>
+
+
+    <div class="container">
+        <div class="well" id="moviess">
+            
+
+        </div>
+    
+        <a href="index.html" class="home">Home</a>
+        
+    
+    </div>
+    
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+     
+        
+        getMovieById(window.location.search.substring(11));
+ 
+    </script>
+
+
+</body>
+</html>

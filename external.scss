@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+$color: white;
+@mixin value {
+    margin: 8px 0;
+    border-radius: 4px;
+
+}
+
+h3 {
+    padding: 20px;
+    text-align: center;
+}
+.container 
+{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding:20px;
+  margin: 10px;
+  
+  input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      @include value;
+     
+      
+    }
+    #search
+    {
+      width: 100%;
+      background-color: #4CAF50;
+      color: $color;
+      padding: 14px 20px;
+      border: none;
+      cursor: pointer;
+      @include value;
+    } 
+    #movies {
+        width: 100%;    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .card, img {
+        padding: 20px;  
+    }
+    h5 {
+        text-align: center;
+    }
+    button {
+        width: 8rem;
+        background-color: blue;
+        color: $color;
+        text-align: center;
+        padding: 5px;
+        margin-left: 100px;
+    }
+    #anch {
+    background-color: skyblue; 
+    color: $color; 
+    padding: 15px 25px;
+    text-decoration: none;
+    }
+}
+.image {
+    float: left;
+}
+.singlediv {   
+    float: left;
+    padding: 10px;
+    font-size: 1rem;
+}
+.singleTitle{
+    font-size: 2rem;
+}
+.well {
+    width: 100%;
+    height: 500px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+.home {  
+    background-color: blue;
+    color: $color;
+    text-align: center;
+    padding: 5px 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
